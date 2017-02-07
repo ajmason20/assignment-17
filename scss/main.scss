@@ -1,0 +1,27 @@
+
+
+*{ box-sizing: border-box }
+img {
+   width: 100%;
+   display: block;
+}
+
+.legislators-container {
+  font-size: 0;
+}
+
+.legislators-container >* {
+  display: inline-block;
+  vertical-align: top;
+  font-size: medium;
+}
+
+.legislator {
+  background-color: #C8F7C5;
+  padding-top: 6px;
+  padding-left: 10px;
+  width: 30%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
